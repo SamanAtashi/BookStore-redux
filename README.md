@@ -33,7 +33,7 @@ You can now view the development server at `localhost:3000`.
 
 - Twitter: [@AtashiSaman](https://twitter.com/AtashiSaman)
 - GitHub: [@SamanAtashi](https://github.com/SamanAtashi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saman-atashi/)
+- LinkedIn: [@saman-atashi](https://www.linkedin.com/in/saman-atashi/)
 
 
 ## 🤝 Contributing
@@ -46,7 +46,3 @@ Give a ⭐️ if you like this project!
 
 ## Inspiration
 Microverse
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
