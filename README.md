@@ -7,8 +7,8 @@ My BookStore .
 
 ## Installation
 
-- Clone the repository , use  `git@github.com:SamanAtashi/BookStore.git` 
-- open terminal and change Directory, use `cd BookStore`
+- Clone the repository , use  `https://github.com/SamanAtashi/BookStore-redux.git` 
+- open terminal and change Directory, use `cd BookStore-redux`
 - Install all Dependencies, use `npm install` or `npm i`
 
 ## Usage
