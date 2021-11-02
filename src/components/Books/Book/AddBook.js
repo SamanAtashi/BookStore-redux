@@ -13,7 +13,11 @@ const AddBook = () => {
       author: document.getElementById('author').value,
     };
     // dispatch an action and pass it the newBook object (your action's payload)
-    dispatch(addBook(newBook));
+    if (newBook.title !== '' && newBook.value !== '') {
+      dispatch(addBook(newBook));
+    } else {
+      alert('Please fill both inputs');
+    }
 
     document.getElementById('title').value = '';
     document.getElementById('author').value = '';
