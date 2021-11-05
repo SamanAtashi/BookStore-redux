@@ -11,7 +11,7 @@ import Navigation from './components/Navigation/Navigation';
 
 const App = () => (
   <Provider store={store}>
-    <div className="border border-red-500 w-full h-full ">
+    <div className="w-full h-full relative ">
       <Router>
         <Navigation />
         <Switch>

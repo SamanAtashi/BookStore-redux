@@ -94,7 +94,7 @@ const Book = () => {
           />
         </div>
       </div>
-      <div className="h-full w-1/4 mx-9 lg:ml-24 lg:-mr-6">
+      <div className="h-full w-1/4 mx-9 lg:pl-24">
         <p className="text-gray-400 font-extralight text-sm">
           CURRENT CHAPTER
         </p>
