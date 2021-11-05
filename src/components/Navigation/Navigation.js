@@ -4,8 +4,8 @@ import { FaUserAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => (
-  <nav className="w-full flex justify-between items-center px-14 py-6 shadow-md">
-    <div className="flex items-center space-x-4">
+  <nav className="bg-white w-full flex justify-between items-center px-14 py-6 shadow-md">
+    <div className="flex items-center space-x-7">
       <h2 className="text-blue-600  font-bold text-3xl">
         Welcome to BookStore
       </h2>
