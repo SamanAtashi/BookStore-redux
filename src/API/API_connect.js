@@ -12,7 +12,7 @@ export const StoreApiSend = async (title, author, id) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-  console.log('sended to api');
+  //   console.log('sended to api');
 
   return res;
 };
@@ -33,5 +33,5 @@ export const StoreApiRemove = async (id) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-  console.log('Deleted to api');
+//   console.log('Deleted to api');
 };
