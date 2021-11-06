@@ -28,20 +28,32 @@ const AddBook = () => {
   };
 
   return (
-    <form>
-      <input
-        id="title"
-        type="text"
-        name="Title"
-        placeholder="Title"
-      />
-      <input
-        id="author"
-        type="text"
-        name="Author"
-        placeholder="Author"
-      />
-      <input type="button" value="Add" onClick={AddBookHandler} />
+    <form className="border-t-2 pt-10 border-gray-200">
+      <p className="font-semibold text-xl text-gray-400 mb-5">
+        ADD NEW BOOK
+      </p>
+      <div className="h-11 flex items-center justify-between">
+        <input
+          id="title"
+          type="text"
+          name="Book Title"
+          placeholder="Title"
+          className="h-full w-1/2 border border-gray-400 py-3 px-4 font-normal text-gray-600 rounded-md"
+        />
+        <input
+          id="author"
+          type="text"
+          name="Author"
+          placeholder="Author"
+          className="h-full w-1/4 border border-gray-400 py-3 px-4 font-normal text-gray-600 rounded-md"
+        />
+        <input
+          className="font-medium w-44 h-full border border-blue-600 rounded-md bg-blue-600 text-white text-sm cursor-pointer hover:bg-blue-500"
+          type="button"
+          value="ADD BOOK"
+          onClick={AddBookHandler}
+        />
+      </div>
     </form>
   );
 };

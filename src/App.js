@@ -1,19 +1,19 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Switch, Route, Link,
+  BrowserRouter as Router, Switch, Route,
+
 } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/configureStore';
 import Books from './components/Books/Books';
 import Categories from './components/Categories/Categories';
+import Navigation from './components/Navigation/Navigation';
 
 const App = () => (
   <Provider store={store}>
-    <div>
-      <h1>Welcome to BookStore</h1>
+    <div className="w-full h-full relative ">
       <Router>
-        <Link to="/">Books</Link>
-        <Link to="/categories">Categories</Link>
+        <Navigation />
         <Switch>
           <Route path="/categories">
             <Categories />
