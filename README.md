@@ -2,7 +2,7 @@
 
 My BookStore .
 
-![screenshot](./src/Assets/)
+![screenshot](./src/Assets/newBookStore.png)
 
 
 ## Installation
